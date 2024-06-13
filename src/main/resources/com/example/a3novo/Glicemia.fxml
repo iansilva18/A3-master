@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox xmlns="http://javafx.com/javafx"
+      xmlns:fx="http://javafx.com/fxml"
+      fx:controller="com.example.a3novo.GlicemiaController"
+      spacing="20"
+      alignment="CENTER"
+      style="-fx-background-color: #f0f4f8; -fx-padding: 40;">
+
+
+    <TextField fx:id="glicemiaField" promptText="Digite sua glicemia" />
+    <Button text="Medir Glicemia" onAction="#salvarMedicao" />
+    <Button fx:id="historicoButton" text="Histórico" onAction="#abrirHistorico" />
+    <Button text="Voltar" onAction="#voltar" />
+
+</VBox>

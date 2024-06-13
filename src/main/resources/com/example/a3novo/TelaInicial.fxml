@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox xmlns="http://javafx.com/javafx"
+      xmlns:fx="http://javafx.com/fxml"
+      fx:controller="com.example.a3novo.TelaInicialController"
+      spacing="20"
+      alignment="CENTER"
+      style="-fx-background-color: #f0f4f8; -fx-padding: 40;">
+
+    <Button text="Cadastro de Paciente" onAction="#irParaCadastroPaciente" />
+    <Button text="Cadastro de Médico" onAction="#irParaCadastroMedico" />
+
+
+</VBox>
